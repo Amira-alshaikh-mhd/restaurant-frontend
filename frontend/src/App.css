@@ -1,8 +1,5 @@
+/* 
 
-body{
-  background-color: #F0F7EE;
-text-align: center;
-}
 
 h1{
   color: #333333;
@@ -10,10 +7,7 @@ h1{
   font-size: 300%;
 }
 
-img{
-  width: 70%;
-  height: 13rem;
-  }
+
 
   .categ{
     display: flex;
@@ -45,10 +39,10 @@ img{
 
   h5{
     /* display: inline; */
-    padding-right: 0rem;
+    /* padding-right: 0rem;
     padding-top: 0rem;
-    
-  }
+     */
+  /* }
 
 
 
@@ -66,10 +60,66 @@ img{
   }
   b{
     color: green;
+  /* } */ 
+
+
+
+  #root{
+    background-color: #F0F7EE;
+    text-align: center;
+  }
+/* 
+.title{
+  display: flex;
+  flex-direction: row;
+} */
+button, h1{
+  display: inline-block;
+}
+button{
+  
+  margin-top: 0;
+}
+h1{
+  padding-right: 30%;
+  padding-top: 0;
+}
+ 
+a{
+
+  background-color: rgb(129, 129, 133);
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  border-radius: 3rem;
+  padding: 1rem;
+  margin: 1rem;
+  
+}
+nav{
+  background-color: rgb(187, 181, 181);
+  height: 4rem;
+  padding-top: 2rem;
+  overflow: auto;
+
+
+}
+img{
+  width: 70%;
+  height: 13rem;
   }
 
-
-
-  
-
-  
+  b{
+   margin-right: auto;
+   color: green;
+  }
+  h3{
+    display: inline;
+    margin-left: 0rem;
+    margin-right: 55rem;
+  }
+  .item{
+    background-color: rgb(129, 129, 133);
+    box-shadow: 5px 10px #534848;
+    margin: 2rem;
+  }

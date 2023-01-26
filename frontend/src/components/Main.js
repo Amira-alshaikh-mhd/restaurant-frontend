@@ -5,7 +5,24 @@ function Main() {
 
     return (
         <>
-            <section className='categ'>
+
+
+          <nav>
+            <a href='#' >type1</a>
+            <a href='#' >type1</a>
+            <a href='#' >type1</a>
+            <a href='#' >type1</a>
+            <a href='#' >type1</a>
+            <a href='#' >type1</a>
+            <a href='#' >type1</a>
+            <a href='#' >type1</a>
+            <a href='#' >type1</a>
+            <a href='#' >type1</a>
+            <a href='#' >type1</a>
+            
+          </nav>
+
+             {/* <section className='categ'>
                 <section className='type'>
                     <h2>Pizza</h2>
                     <div className='pizza'> <h5>Neapolitan Pizza  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -106,7 +123,7 @@ function Main() {
 
 
 
-            </section>
+            </section>  */}
 
 
         </>
