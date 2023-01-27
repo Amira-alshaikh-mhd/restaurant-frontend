@@ -8,11 +8,13 @@ function App() {
   return (
     <>
     <Home />
+    <div className='main'>
     <Main />
     <Item />
     <Item />
     <Item />
     <Item />
+    </div>
     </>
   );
 }

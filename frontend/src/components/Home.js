@@ -11,7 +11,7 @@ function Home(){
         
             <h1>Restaurant</h1>
             
-            <button type='submit'>log out</button>
+            
             
         
       </>
