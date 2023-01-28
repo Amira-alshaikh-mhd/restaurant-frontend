@@ -1,4 +1,5 @@
 import React from 'react';
+import Type from './Type';
 
 
 function Main() {
@@ -8,122 +9,21 @@ function Main() {
 
 
           <nav>
-            <a href='#' >type1</a>
-            <a href='#' >type1</a>
-            <a href='#' >type1</a>
-            <a href='#' >type1</a>
-            <a href='#' >type1</a>
-            <a href='#' >type1</a>
-            <a href='#' >type1</a>
-            <a href='#' >type1</a>
-            <a href='#' >type1</a>
-            <a href='#' >type1</a>
-            <a href='#' >type1</a>
+           <Type cat = 'Type 1' />
+           <Type cat = 'Type 2' />
+           <Type cat = 'Type 3' />
+           <Type cat = 'Type 4' />
+           <Type cat = 'Type 5' />
+           <Type cat = 'Type 6' />
+           <Type cat = 'Type 7' />
+           <Type cat = 'Type 8' />
+           <Type cat = 'Type 9' />
+           <Type cat = 'Type 10' />
+           <Type cat = 'Type 11' />
             
           </nav>
 
-             {/* <section className='categ'>
-                <section className='type'>
-                    <h2>Pizza</h2>
-                    <div className='pizza'> <h5>Neapolitan Pizza  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                       <b> price</b></h5>
-                        <p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-
-                    </div>
-                    <div className='pizza'><h5>Veggie Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                    <b> price</b></h5><p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-                    </div>
-                    <div className='pizza'><h5>Cheese Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                    <b> price</b></h5><p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-                    </div>
-                </section><hr></hr>
-
-
-
-
-                <section className='type'>
-                    <h2>Pizza</h2>
-                    <div className='pizza'> <h5>Neapolitan Pizza  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <b> price</b></h5>
-                        <p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-
-                    </div>
-                    <div className='pizza'><h5>Veggie Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                    <b> price</b></h5><p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-                    </div>
-                    <div className='pizza'><h5>Cheese Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                    <b> price</b></h5><p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-                    </div>
-                </section><hr></hr>
-
-
-
-                <section className='type'>
-                    <h2>Pizza</h2>
-                    <div className='pizza'> <h5>Neapolitan Pizza  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <b> price</b></h5>
-                        <p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-
-                    </div>
-                    <div className='pizza'><h5>Veggie Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                    <b> price</b></h5><p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-                    </div>
-                    <div className='pizza'><h5>Cheese Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                    <b> price</b></h5><p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-                    </div>
-                </section><hr></hr>
-
-
-
-                <section className='type'>
-                    <h2>Pizza</h2>
-                    <div className='pizza'> <h5>Neapolitan Pizza  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <b> price</b></h5>
-                        <p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-
-                    </div>
-                    <div className='pizza'><h5>Veggie Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                    <b> price</b></h5><p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-                    </div>
-                    <div className='pizza'><h5>Cheese Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                    <b> price</b></h5><p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-                    </div>
-                </section><hr></hr>
-
-
-                <section className='type'>
-                    <h2>Pizza</h2>
-                    <div className='pizza'> <h5>Neapolitan Pizza  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                    <b> price</b></h5>
-                        <p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-
-                    </div>
-                    <div className='pizza'><h5>Veggie Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                    <b> price</b></h5><p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-                    </div>
-                    <div className='pizza'><h5>Cheese Pizza &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-                    <b> price</b></h5><p>aaaaaaaaa</p>
-                        <h6>○spicy ○vegan</h6>
-                    </div>
-                </section><hr></hr>
-
-
-
-            </section>  */}
+            
 
 
         </>

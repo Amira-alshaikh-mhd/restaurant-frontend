@@ -10,10 +10,10 @@ function App() {
     <Home />
     <div className='main'>
     <Main />
-    <Item />
-    <Item />
-    <Item />
-    <Item />
+    <Item dish = 'Dish1' price ='Price1' description ='aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa' spicy ='○spicy ○vegan1'/>
+    <Item dish = 'Dish2' price ='Price2' description ='bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb' spicy ='○spicy ○vegan2'/>
+    <Item dish = 'Dish3' price ='Price3' description ='ccccccccccccccccccccccccccccccccccccccccccccccc' spicy ='○spicy ○vegan3'/>
+    <Item dish = 'Dish4' price ='Price4' description ='ddddddddddddddddddddddddddddddddddddddddddddddd' spicy ='○spicy ○vegan4'/>
     </div>
     </>
   );
