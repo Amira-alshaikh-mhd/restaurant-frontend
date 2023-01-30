@@ -12,25 +12,25 @@ h1 {
   font-family: serif;
 }
 
-a {
+button {
 
   background-color: #D5D9D3;
   font-size: 2rem;
-  text-decoration: none;
+  height: 4rem;
   color: #333333;
   border-radius: 3rem;
-  padding: 0.5rem 3rem 0.5rem 3rem;
-  margin: -12rem;
+  min-width: 150px;
   font-family: serif;
+  margin: auto;
   
 
 }
 
-a:hover {
+button:hover {
   border:1px solid #333333;
 }
 
-a:active{
+button:active{
   border-color: rgb(7, 7, 7);
 }
 
@@ -39,8 +39,6 @@ nav {
   height: 5rem;
   padding-top: 2rem;
   overflow: scroll;
-
-
 }
 
 img {
@@ -49,8 +47,8 @@ img {
 }
 
 b {
-  align-self: center;
-  padding-right: 1rem;
+ 
+  padding-left: 79%;
   color: green;
   font-family: sans-serif;
 }
@@ -63,7 +61,8 @@ h3 {
   font-family: sans-serif;
 }
 
-.item {
+
+.dish {
   background: #F0F7EE;
   border: 1px solid #F0F7EE;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -83,8 +82,14 @@ p {
   overflow-wrap: break-word;
 }
 
-.dish {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
+.item{
+  background-color: #E4E4E4;
 }
+
+
+
+ .wrapper {
+  margin: -1rem;
+  
+ }
