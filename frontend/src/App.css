@@ -64,10 +64,30 @@ h3 {
   padding-left: 1rem;
   color: #4D4D4D;
   font-family: sans-serif;
+  margin-top: 9px;
+  margin-bottom: 0px;
 }
 
 
-.dish {
+.dish1 {
+  background: #F0F7EE;
+  border: 1px solid #F0F7EE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin:2rem;
+}
+.dish2{
+  background: #F0F7EE;
+  border: 1px solid #F0F7EE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 2rem;
+}
+.dish3 {
+  background: #F0F7EE;
+  border: 1px solid #F0F7EE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 2rem;
+}
+.dish4 {
   background: #F0F7EE;
   border: 1px solid #F0F7EE;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -109,9 +129,39 @@ position: relative;
   display: flex;
     flex-direction: row;
     width: 30%;
-    margin: 0 auto;
+    margin-left: 42%;
+  
  }
 }
+.editbtn1{
+  display: flex;
+    flex-direction: row;
+    width: 7%;
+    
+    
+}
+.editbtn2{
+  display: flex;
+    flex-direction: row;
+    width: 7%;
+    
+    
+}
+.editbtn3{
+  display: flex;
+    flex-direction: row;
+    width: 7%;
+    
+    
+}
+.editbtn4{
+  display: flex;
+    flex-direction: row;
+    width: 7%;
+    
+    
+}
+
 
  #imgbtn{
   background-color: #D5D9D3;
@@ -151,6 +201,7 @@ width: 60%;
  #resname{
   background-color: #D5D9D3;
   height: 50px;
+  
   color: #333333;
   border-radius: 3rem;
   border: 1px black solid;
@@ -158,6 +209,7 @@ width: 60%;
   cursor: pointer;
   margin-top: -0.5rem;
   margin-left:2px;
+  min-width: 0;
   
   
  }
@@ -174,34 +226,39 @@ width: 60%;
 }
 #edit1{
   background-color: #D5D9D3;
-  font-size: 2rem;
-  height: 4rem;
+  height: 40px;
+  
   color: #333333;
   border-radius: 3rem;
-  min-width: 150px;
+  border: 1px black solid;
   font-family: serif;
-  margin: auto;
   cursor: pointer;
+  
+  margin-left:2px;
+  margin-top: 0px;
+  min-width: 0;
+  margin-bottom: 0px;
+  
 }
-#edit1:hover{
-  border:1px solid #333333;
-}
- #edit1:active{
-  border-color: rgb(7, 7, 7);
- }
+
 
 
 
  #edit2{
   background-color: #D5D9D3;
-  font-size: 2rem;
-  height: 4rem;
+  height: 40px;
+  
   color: #333333;
   border-radius: 3rem;
-  min-width: 150px;
+  border: 1px black solid;
   font-family: serif;
-  margin: auto;
   cursor: pointer;
+  
+  margin-left:2px;
+  margin-top: 0px;
+  min-width: 0;
+  margin-bottom: 0px;
+  
 }
 #edit2:hover{
   border:1px solid #333333;
@@ -214,14 +271,18 @@ width: 60%;
 
  #edit3{
   background-color: #D5D9D3;
-  font-size: 2rem;
-  height: 4rem;
+  height: 40px;
+  
   color: #333333;
   border-radius: 3rem;
-  min-width: 150px;
+  border: 1px black solid;
   font-family: serif;
-  margin: auto;
   cursor: pointer;
+  
+  margin-left:2px;
+  margin-top: 0px;
+  min-width: 0;
+  margin-bottom: 0px;
 }
 #edit3:hover{
   border:1px solid #333333;
@@ -235,14 +296,18 @@ width: 60%;
 
  #edit4{
   background-color: #D5D9D3;
-  font-size: 2rem;
-  height: 4rem;
+  height: 40px;
+  
   color: #333333;
   border-radius: 3rem;
-  min-width: 150px;
+  border: 1px black solid;
   font-family: serif;
-  margin: auto;
   cursor: pointer;
+  
+  margin-left:2px;
+  margin-top: 0px;
+  min-width: 0;
+  margin-bottom: 0px;
 }
 #edit4:hover{
   border:1px solid #333333;

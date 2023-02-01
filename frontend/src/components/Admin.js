@@ -44,30 +44,45 @@ function admin(){
 
 
        
-      <div className='dish'>
-      <button id='edit1' type='button'><img id='editname' src={edit} alt=''></img></button>
-        <h3>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </h3>
+      <div className='dish1'>
+      <div className='editbtn1'>
+        <h3>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   </h3>
+        <button id='edit1' type='button'><img id='editname' src={edit} alt=''></img></button>
+        </div>
         <b>price</b>
         <p>description description description description description description description description description description description description description</p>
         <p>spicy</p>
     </div>
-    <div className='dish'>
-    <button id='edit2' type='button'><img id='editname' src={edit} alt=''></img></button>
+
+
+    <div className='dish2'>
+        <div className='editbtn2'>
+   
         <h3>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </h3>
+        <button id='edit2' type='button'><img id='editname' src={edit} alt=''></img></button>
+        </div>
         <b>price</b>
         <p>description</p>
         <p>spicy</p>
     </div>
-    <div className='dish'>
-    <button id='edit3' type='button'><img id='editname' src={edit} alt=''></img></button>
+
+
+    <div className='dish3'>
+    <div className='editbtn3'>
         <h3>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </h3>
+        <button id='edit3' type='button'><img id='editname' src={edit} alt=''></img></button>
+        </div>
         <b>price</b>
         <p>description</p>
         <p>spicy</p>
     </div>
-    <div className='dish' >
-    <button id='edit4' type='button'><img id='editname' src={edit} alt=''></img></button>
+
+
+    <div className='dish4' >
+    <div className='editbtn4'>
         <h3>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
+        <button id='edit4' type='button'><img id='editname' src={edit} alt=''></img></button>
+        </div>
         <b>price</b>
         <p>description</p>
         <p>spicy</p>
