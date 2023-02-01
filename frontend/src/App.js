@@ -1,13 +1,14 @@
 
 import React from 'react';
 import './App.css';
-import Home from './components/Home';
+import Signup from './components/signup';
+
 
 function App() {
   
     return (
 
-    <Home />
+    <Signup />
 
     );
   }
