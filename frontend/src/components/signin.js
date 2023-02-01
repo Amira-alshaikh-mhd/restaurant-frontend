@@ -3,12 +3,12 @@ import React from 'react';
 ;
 
 
-function signup(){
+function signin(){
     
       return (
         <>
         <div className='container'>
-        <h1>Signup</h1>
+        <h1>Signin</h1>
   <label>
      <h5>Email</h5>
     <input type="email" name="name" />
@@ -16,7 +16,7 @@ function signup(){
     <input type="password" name="password"/>
   </label>
   <div className='button'> 
-  <input type="button" value="Signup" />
+  <input type="button" value="Signin" />
   </div>
 </div>
       </>
@@ -27,4 +27,4 @@ function signup(){
   
   
 
-export default signup;
+export default signin;

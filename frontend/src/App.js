@@ -1,14 +1,13 @@
 
 import React from 'react';
 import './App.css';
-import Signup from './components/signup';
-
+import Signin from './components/signin';
 
 function App() {
   
     return (
 
-    <Signup />
+    <Signin />
 
     );
   }
