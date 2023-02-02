@@ -1,32 +1,65 @@
-.container{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-border: 1px solid;
-padding-top:0%;
-padding-bottom: 7%;
-margin-left:36%;
-margin-right: 40%;
-background-color: #F0F7EE;
+body{
+  background-color:#F0F7EE;
+  
 }
 label{
   display: flex;
   flex-direction: column;
-  
+  width: 80%;
 }
+
 h5{
   
-  font-family: 'San Francisco';
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 32px;
 line-height: 39px;
 margin-bottom: 0%;
+margin-left:6%;
+height: 3rem;
+
 }
 input{
-  font-size: 23px;
+  font-size: 24px;
+  border-radius: 4rem;
+  height: 3rem;
 }
-.button{
-  margin-top:20%
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 1px white solid;
+padding-top:0%;
+padding-bottom: 7%;
+margin-left:36%;
+margin-right: 40%;
+background-color: white;
+width:24%
+}
+
+.signincontainer{
+  margin-top:20%;
+  
+ 
+}
+.signup{
+  background-color: black;
+  font-size: 2rem;
+  height: 4rem;
+  color: white;
+  border-radius: 3rem;
+  min-width: 150px;
+  font-family: serif;
+  margin: auto;
+  cursor: pointer;
+  
+}
+.signup:hover {
+  border:1px solid #333333;
+}
+
+.signup:active{
+  border-color: rgb(7, 7, 7);
 }

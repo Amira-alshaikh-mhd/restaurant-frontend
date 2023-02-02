@@ -15,8 +15,8 @@ function signup(){
    <h5>Password</h5>
     <input type="password" name="password"/>
   </label>
-  <div className='button'> 
-  <input type="button" value="Signup" />
+  <div className='signupcontainer'> 
+  <input className='signup' type="button" value="Signup" />
   </div>
 </div>
       </>
