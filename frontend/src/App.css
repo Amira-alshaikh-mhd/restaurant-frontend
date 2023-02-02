@@ -13,7 +13,7 @@ h1 {
 }
 
 button {
-
+/* display: inline; */
   background-color: #D5D9D3;
   font-size: 2rem;
   height: 4rem;
@@ -21,24 +21,29 @@ button {
   border-radius: 3rem;
   min-width: 150px;
   font-family: serif;
-  margin: auto;
+  margin-top: 0rem;
+  margin-left: 2rem;
+  
   
 
 }
 
 button:hover {
-  border:1px solid #333333;
+  border:1px solid #a51919;
 }
 
 button:active{
-  border-color: rgb(7, 7, 7);
+  border-color: rgb(165, 58, 58);
 }
 
 nav {
+  display: flex;
+  justify-content:flex-start;
   background-color: #E4E4E4;
-  height: 5rem;
-  padding-top: 2rem;
-  overflow: scroll;
+  height: 7rem;
+  padding:  2rem 2rem 0rem 1rem;
+  /* padding-bottom: 0rem; */
+  overflow-x: scroll;
 }
 
 img {
@@ -66,6 +71,7 @@ h3 {
   background: #F0F7EE;
   border: 1px solid #F0F7EE;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2rem;
   margin: 2rem;
 }
 
@@ -85,11 +91,19 @@ p {
 
 .item{
   background-color: #E4E4E4;
+  
 }
 
 
 
  .wrapper {
-  margin: -1rem;
-  
+  margin-left: 2rem;
+  margin-top: -1rem;
+  /* display: flex;
+  flex-direction: row; */
+ }
+
+ .rowed {
+  display: flex;
+  flex-direction: row;
  }
