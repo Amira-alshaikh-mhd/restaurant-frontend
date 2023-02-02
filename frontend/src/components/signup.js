@@ -16,7 +16,7 @@ function signup(){
     <input type="password" name="password"/>
   </label>
   <div className='signupcontainer'> 
-  <input className='signup' type="button" value="Signup" />
+  <input className='signup'  type="button" value="Signup" />
   </div>
 </div>
       </>
