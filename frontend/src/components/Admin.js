@@ -26,16 +26,63 @@ function admin(){
             <nav>
             <div className='wrapper'>
                 <div className='navbtn'></div>
-            <button type='submit' >category</button>
-            <button type='submit' >category</button>
-            <button type='submit' >category</button>
-            <button type='submit' >category</button>
-            <button type='submit' >category</button>
-            <button type='submit' >category</button>
-            <button type='submit' >category</button>
-            <button type='submit' >category</button>
-            <button type='submit' >category</button>
-            <button>+</button>
+             <div className='twobtn'>
+            <button className='catagory' type='submit'  >category</button>
+            <button className='delete' onclick="submit()">
+              <img className='binimg' src={bin} alt='' />
+            </button>
+            </div>
+            <div className='twobtn'>
+            <button className='catagory' type='submit'  >category</button>
+            <button className='delete' onclick="submit()">
+              <img className='binimg' src={bin} alt='' />
+            </button>
+            </div>
+            <div className='twobtn'>
+            <button className='catagory' type='submit'  >category</button>
+            <button className='delete' onclick="submit()">
+              <img className='binimg' src={bin} alt='' />
+            </button>
+            </div>
+            <div className='twobtn'>
+            <button className='catagory' type='submit'  >category</button>
+            <button className='delete' onclick="submit()">
+              <img className='binimg' src={bin} alt='' />
+            </button>
+            </div>
+            <div className='twobtn'>
+            <button className='catagory' type='submit'  >category</button>
+            <button className='delete' onclick="submit()">
+              <img className='binimg' src={bin} alt='' />
+            </button>
+            </div> 
+            <div className='twobtn'>
+            <button className='catagory' type='submit'  >category</button>
+            <button className='delete' onclick="submit()">
+              <img className='binimg' src={bin} alt='' />
+            </button>
+            </div>
+            <div className='twobtn'>
+            <button className='catagory' type='submit'  >category</button>
+            <button className='delete' onclick="submit()">
+              <img className='binimg' src={bin} alt='' />
+            </button>
+            </div>
+            <div className='twobtn'>
+            <button className='catagory' type='submit'  >category</button>
+            <button className='delete' onclick="submit()">
+              <img className='binimg' src={bin} alt='' />
+            </button>
+            </div> 
+            <div className='twobtn'>
+            <button className='catagory' type='submit'  >category</button>
+            <button className='delete' onclick="submit()">
+              <img className='binimg' src={bin} alt='' />
+            </button>
+            </div>
+            <div>
+            <button className='catagory'>+</button>
+            </div>
 
             </div>
             </nav>
@@ -48,6 +95,7 @@ function admin(){
       <div className='editbtn1'>
         <h3>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   </h3>
         <button id='edit1' type='button'><img id='editname' src={edit} alt=''></img></button>
+        <button id='edit1' type='button'><img id='editname' src={bin} alt=''></img></button>
         </div>
         <b>price</b>
         <p>description description description description description description description description description description description description description</p>
@@ -55,11 +103,12 @@ function admin(){
     </div>
 
 
-    <div className='dish2'>
-        <div className='editbtn2'>
+    <div className='dish1'>
+        <div className='editbtn1'>
    
         <h3>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </h3>
-        <button id='edit2' type='button'><img id='editname' src={edit} alt=''></img></button>
+        <button id='edit1' type='button'><img id='editname' src={edit} alt=''></img></button>
+        <button id='edit1' type='button'><img id='editname' src={bin} alt=''></img></button>
         </div>
         <b>price</b>
         <p>description</p>
@@ -67,10 +116,11 @@ function admin(){
     </div>
 
 
-    <div className='dish3'>
-    <div className='editbtn3'>
+    <div className='dish1'>
+    <div className='editbtn1'>
         <h3>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </h3>
-        <button id='edit3' type='button'><img id='editname' src={edit} alt=''></img></button>
+        <button id='edit1' type='button'><img id='editname' src={edit} alt=''></img></button>
+        <button id='edit1' type='button'><img id='editname' src={bin} alt=''></img></button>
         </div>
         <b>price</b>
         <p>description</p>
@@ -78,10 +128,11 @@ function admin(){
     </div>
 
 
-    <div className='dish4' >
-    <div className='editbtn4'>
+    <div className='dish1' >
+    <div className='editbtn1'>
         <h3>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
-        <button id='edit4' type='button'><img id='editname' src={edit} alt=''></img></button>
+        <button id='edit1' type='button'><img id='editname' src={edit} alt=''></img></button>
+        <button id='edit1' type='button'><img id='editname' src={bin} alt=''></img></button>
         </div>
         <b>price</b>
         <p>description</p>
