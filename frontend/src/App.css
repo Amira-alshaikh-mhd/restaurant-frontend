@@ -1,31 +1,34 @@
+
 #root {
   background-color: #F0F7EE;
   text-align: center;
 }
 
 
-
+/*FOR ALL H1*/
 h1 {
   font-size: 3rem;
   margin-top: -1rem;
   color: #333333;
   font-family: serif;
   
+  
 }
 
 
-
-
+/*FOR THE NAV BAR8*/
 nav {
   background-color: #E4E4E4;
   height: 5rem;
   padding-top: 2rem;
   overflow: scroll;
+  width:100%;
   
 
 
 }
 
+/*FOR AL THE IMAGES*/
 img {
   
   width: 100%;
@@ -38,7 +41,7 @@ b {
   color: green;
   font-family: sans-serif;
 }
-
+/*ALL H3 ELEMENT*/
 h3 {
   flex-basis: 70%;
   text-align: left;
@@ -49,12 +52,13 @@ h3 {
   margin-bottom: 0px;
 }
 
+/*CATAGORY*/
 .catagory{
 
 
   background-color: #D5D9D3;
   font-size: 2rem;
-  height: 5.2rem;
+  height: 5rem;
   color: #333333;
   border-radius: 3rem;
   min-width: 150px;
@@ -94,7 +98,13 @@ h3 {
   height: 100%;
   width: 60%;
 }
+.twobtn{
+  display: flex;
+  flex-direction: row;
+  position:relative;
+ 
 
+ }
 
 
 .dish1 {
@@ -102,6 +112,7 @@ h3 {
   border: 1px solid #F0F7EE;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin:2rem;
+  min-width: 300px;
 }
 
 
@@ -131,51 +142,52 @@ p {
   left: auto;
   display: flex;
   flex-direction: row;
+  width: 50%;
+  height:auto;
+  padding-left: 1%;
   
  }
- .twobtn{
-  display: flex;
-  flex-direction: row;
-  position:relative;
-
- }
+ 
  .container{
 position: relative;
+min-width: 50px;
 
  }
- @media screen and (min-width: 100px){
+ 
  .container2{
   display: flex;
     flex-direction: row;
-    width: 30%;
-    margin-left: 42%;
+    width:230px;
+     margin:0 auto;
+
   
  }
-}
+
 .editbtn1{
   display: flex;
     flex-direction: row;
     width: 9%;
-    
-    
+    min-width: 150px;
+
 }
 
 
 
+
  #imgbtn{
-  background-color: #D5D9D3;
+  background-color: #F1F1F1;
   font-size: 2rem;
   height: 4rem;
   color: #333333;
   border-radius: 3rem;
-  border: 1px black solid;
-  min-width: 0px;
+  border: 1px #F1F1F1 solid;
+  min-width: 50px;
   font-family: serif;
   margin: auto;
   position: absolute;
   padding-left: 100px;
   top: 20%;
-  left: 95%;
+  left: 90%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   padding: 0px 10px;
@@ -183,7 +195,7 @@ position: relative;
   text-align: center;
  }
  #imgbtn:hover{
-  border:1px solid #333333;
+  border:1px solid black;
  }
  #imgbtn:active{
   border-color: rgb(7, 7, 7);
@@ -198,17 +210,17 @@ width: 60%;
  }
  
  #resname{
-  background-color: #D5D9D3;
+  background-color: #F0F7EE;
   height: 50px;
-  
+  min-width: 50px;
   color: #333333;
   border-radius: 3rem;
-  border: 1px black solid;
+  border: 1px #F0F7EE solid;
   font-family: serif;
   cursor: pointer;
   margin-top: -0.5rem;
   margin-left:2px;
-  min-width: 0;
+  min-width: 50px;
   
   
  }
@@ -218,18 +230,18 @@ width: 60%;
   
 }
 #resname:hover{
-  border:1px solid #333333;
+  border:1px solid black;
 }
 #resname:active{
   border-color: rgb(7, 7, 7);
 }
 #edit1{
-  background-color: #D5D9D3;
+  background-color: #F0F7EE;
   height: 40px;
   width: 70%;
   color: #333333;
   border-radius: 3rem;
-  border: 1px black solid;
+  border: 1px #F0F7EE solid;
   font-family: serif;
   cursor: pointer;
   
@@ -241,7 +253,7 @@ width: 60%;
 }
 
 #edit1:hover{
-  border:1px solid #333333;
+  border:1px solid black;
 }
  #edit1:active{
   border-color: rgb(7, 7, 7);
