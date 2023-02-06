@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Home from './components/Home';
+
+import Inspectors from './components/Inspectors'
 
 
 function App() {
   
   return (
     <>
-    <Home />
+    <Inspectors />
     
     </>
   );
