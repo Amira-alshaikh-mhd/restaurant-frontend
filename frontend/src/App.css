@@ -43,7 +43,8 @@ nav {
   height: 7rem;
   padding: 2rem 2rem 0rem 1rem;
   /* padding-bottom: 0rem; */
-  overflow-x: scroll;
+  overflow-x: auto;
+  justify-content: center;
 }
 
 img {
@@ -98,12 +99,39 @@ p {
 
 .wrapper {
   margin-left: 2rem;
-  margin-top: -1rem;
-  /* display: flex;
-  flex-direction: row; */
+  margin-top: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
 }
 
 .rowed {
   display: flex;
   flex-direction: row;
 }
+
+
+@media only screen and (max-width: 600px) {
+  button{
+    min-width: 90px;
+  }
+  nav{
+    justify-content: center;
+  }
+  
+}
+@media only screen and (max-width: 420px) {
+  .wrapper{
+    padding-right: 3rem;
+  }
+}
+@media only screen and (max-width: 290px) {
+  button{
+    min-width: 40px;
+  }
+.wrapper{
+  padding: auto;
+}
+}
+  
