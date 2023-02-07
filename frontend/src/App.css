@@ -6,7 +6,7 @@
 
 
 /*FOR ALL H1*/
-h1 {
+.h11 {
   font-size: 3rem;
   margin-top: -1rem;
   color: #333333;
@@ -17,7 +17,7 @@ h1 {
 
 
 /*FOR THE NAV BAR8*/
-nav {
+.nav {
   background-color: #E4E4E4;
   height: 5rem;
   padding-top: 2rem;
@@ -29,13 +29,13 @@ nav {
 }
 
 /*FOR AL THE IMAGES*/
-img {
+.logo {
   
   width: 100%;
   height: 13rem;
 }
 
-b {
+.price {
  
   padding-left: 79%;
   color: green;
@@ -57,7 +57,7 @@ h3 {
 
 
   background-color: #D5D9D3;
-  font-size: 2rem;
+  font-size: 1.7rem;
   height: 5rem;
   color: #333333;
   border-radius: 3rem;
@@ -65,6 +65,7 @@ h3 {
   font-family: serif;
   margin: auto;
   cursor: pointer;
+  padding-right: 15%;
 }
 
 .catagory:hover {
@@ -84,7 +85,6 @@ h3 {
   color: #333333;
   border-radius:  3rem;
   border:#D5D9D3 1px solid ;
-  
   font-family: serif;
   margin: auto;
   cursor: pointer;
@@ -174,7 +174,7 @@ min-width: 50px;
 
 
 
- #imgbtn{
+ .imgbtn{
   background-color: #F1F1F1;
   font-size: 2rem;
   height: 4rem;
@@ -194,22 +194,22 @@ min-width: 50px;
   cursor: pointer;
   text-align: center;
  }
- #imgbtn:hover{
+ .imgbtn:hover{
   border:1px solid black;
  }
- #imgbtn:active{
+ .imgbtn:active{
   border-color: rgb(7, 7, 7);
  }
- #filePicker{
+ .filePicker{
   visibility:hidden;
   
  }
- #fileimg{
+ .fileimg{
 height: inherit;
 width: 60%;
  }
  
- #resname{
+ .resname{
   background-color: #F0F7EE;
   height: 50px;
   min-width: 50px;
@@ -224,18 +224,19 @@ width: 60%;
   
   
  }
-#editname{
+ .resname:hover{
+  border:1px solid black;
+}
+.resname:active{
+  border-color: rgb(7, 7, 7);
+}
+.editname{
   height: 100%;
   width: 60%;
   
 }
-#resname:hover{
-  border:1px solid black;
-}
-#resname:active{
-  border-color: rgb(7, 7, 7);
-}
-#edit1{
+
+.edit1{
   background-color: #F0F7EE;
   height: 40px;
   width: 70%;
@@ -252,10 +253,10 @@ width: 60%;
   
 }
 
-#edit1:hover{
+.edit1:hover{
   border:1px solid black;
 }
- #edit1:active{
+ .edit1:active{
   border-color: rgb(7, 7, 7);
  }
 
