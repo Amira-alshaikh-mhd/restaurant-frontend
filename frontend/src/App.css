@@ -171,7 +171,32 @@ min-width: 50px;
 
 }
 
-
+.logout{
+  background-color: #F1F1F1;
+  font-size: 1.3rem;
+  height: 4rem;
+  color: #333333;
+  border-radius: 3rem;
+  border: 1px #F1F1F1 solid;
+  min-width: 50px;
+  font-family: serif;
+  margin: auto;
+  position: absolute;
+  top: 20%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+ 
+  padding: 0px 10px;
+  cursor: pointer;
+  text-align: center;
+  width: 60px;
+}
+.logout:hover{
+  border:1px solid black;
+ }
+ .logout:active{
+  border-color: rgb(7, 7, 7);
+ }
 
 
  .imgbtn{
@@ -185,11 +210,10 @@ min-width: 50px;
   font-family: serif;
   margin: auto;
   position: absolute;
-  padding-left: 100px;
   top: 20%;
   left: 90%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  
   padding: 0px 10px;
   cursor: pointer;
   text-align: center;

@@ -11,23 +11,24 @@ function admin(){
       return (
         <>
         {/*RESTORANT LOGO*/}
-        <div className='col-1 container'>
+        <div className='container'>
         <img className='logo' src={logo} alt='logo for rest'></img>
         <label className='imgbtn' htmlFor="filePicker" >
 <img className='fileimg' src={edit} alt=''></img>
        </label>
 <input className="filePicker" type={"file"}></input>
+<button className='logout' type='button'>Log-out</button>
 
         </div>
            {/*RESTORANT NAME */}
-         <div className='col-2 container2'>
+         <div className='container2'>
             <h1 className='h11'>Restaurant </h1>
             <button className='resname' type='button'><img className='editname' src={edit} alt=''></img></button>
             
             </div>
             {/*NAV BAR*/}
             <nav className='nav'>
-            <div className='col-3 wrapper'>
+            <div className='wrapper'>
                 <div className='navbtn'></div>
              <div className='twobtn'>
             <button className='catagory' type='submit'  >category</button>
@@ -94,7 +95,7 @@ function admin(){
 
 
        {/*DISH*/}
-      <div className='col-4 dish1'>
+      <div className='dish1'>
       <div className='editbtn1'>
          <h3 className='h3'>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   </h3>
         <button className='edit1' type='button'><img className='editname' src={edit} alt=''></img></button>
@@ -119,7 +120,7 @@ function admin(){
     </div>
 
 
-    <div className='col-4 dish1'>
+    <div className='dish1'>
     <div className='editbtn1'>
          <h3 className='h3'>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </h3>
         <button className='edit1' type='button'><img className='editname' src={edit} alt=''></img></button>
@@ -131,7 +132,7 @@ function admin(){
     </div>
 
 
-    <div className='col-4 dish1' >
+    <div className='dish1' >
     <div className='editbtn1'>
          <h3 className='h3'>dish &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
         <button className='edit1' type='button'><img className='editname' src={edit} alt=''></img></button>
