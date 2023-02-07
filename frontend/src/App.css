@@ -42,7 +42,7 @@
   font-family: sans-serif;
 }
 /*ALL H3 ELEMENT*/
-h3 {
+.h3 {
   flex-basis: 70%;
   text-align: left;
   padding-left: 1rem;
@@ -58,7 +58,7 @@ h3 {
 
   background-color: #D5D9D3;
   font-size: 1.7rem;
-  height: 5rem;
+  height: 4rem;
   color: #333333;
   border-radius: 3rem;
   min-width: 150px;
@@ -81,7 +81,7 @@ h3 {
   background-color: #D5D9D3;
   font-size: 2rem;
   height: 2rem;
-  width: 2.5rem;
+  width: 2rem;
   color: #333333;
   border-radius:  3rem;
   border:#D5D9D3 1px solid ;
@@ -89,18 +89,18 @@ h3 {
   margin: auto;
   cursor: pointer;
   position: absolute;
-  left: 64% ;
-  top:5%;
- 
-  
+  left: 75% ;
+  top:25%;
 }
+
+
 .binimg{
   height: 100%;
-  width: 60%;
+  width: 100%;
 }
 .twobtn{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   position:relative;
  
 
